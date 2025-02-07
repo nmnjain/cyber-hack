@@ -1,0 +1,171 @@
+[
+    {
+        "id": 1,
+        "type": "phishing",
+        "email_subject": "Urgent: Review Your Recent Transaction",
+        "email_body": "Dear Customer,\nWe noticed a recent transaction of $499.99 from your account. If this was not you, click here to verify and cancel the payment immediately: [suspicious-link.net/verify].\nSincerely,\nYour Bank",
+        "task": "Identify the red flags in this email.",
+        "options": [
+            "Urgent language",
+            "Suspicious domain",
+            "Generic greeting",
+            "Secure HTTPS connection"
+        ],
+        "answer": [
+            "Urgent language",
+            "Suspicious domain",
+            "Generic greeting"
+        ],
+        "explanations": {
+            "Urgent language": "Scammers often use urgent language to pressure you into acting quickly without thinking.",
+            "Suspicious domain": "The link domain 'suspicious-link.net' is not an official bank domain. Legitimate banks use their own secure domains.",
+            "Generic greeting": "Legitimate banks usually address you by name, not 'Dear Customer'.",
+            "Secure HTTPS connection": "While HTTPS is important, it alone doesn't guarantee a legitimate site. Scammers can also use HTTPS."
+        }
+    },
+    {
+        "id": 2,
+        "type": "social_media",
+        "profile_name": "Sarah Miller",
+        "profile_message": "Hey, I saw you're interested in cybersecurity! I'm selling this amazing course for only $20. DM me if you're interested!",
+        "task": "Identify the red flags in this profile/message.",
+        "options": [
+            "Unsolicited offer",
+            "Too-good-to-be-true price",
+            "Direct message request",
+            "Positive reviews"
+        ],
+        "answer": [
+            "Unsolicited offer",
+            "Too-good-to-be-true price",
+            "Direct message request"
+        ],
+        "explanations": {
+            "Unsolicited offer": "Receiving unexpected offers, especially from strangers, is a common scam tactic.",
+            "Too-good-to-be-true price": "Quality cybersecurity courses typically cost much more. An unusually low price is suspicious.",
+            "Direct message request": "Scammers prefer private messages to avoid public scrutiny or warnings from other users.",
+            "Positive reviews": "The message doesn't mention any reviews. Legitimate businesses usually have public, verifiable reviews."
+        }
+    },
+    {
+        "id": 3,
+        "type": "phishing",
+        "email_subject": "Important: Action Required - Password Reset",
+        "email_body": "Dear Valued Customer,\nDue to a recent system upgrade, all users must reset their passwords. Please click the following link to create a new password: [reset-password-now.info].  This is a one-time process to ensure account security.\nThank you,\nAccount Security Team",
+        "task": "Identify the red flags in this email.",
+        "options": [
+            "Official signature",
+            "Suspicious domain",
+            "Urgent language",
+            "Generic greeting"
+        ],
+        "answer": [
+            "Suspicious domain",
+            "Urgent language",
+            "Generic greeting"
+        ],
+        "explanations": {
+            "Official signature": "The signature is vague ('Account Security Team'). Legitimate emails usually include specific department and company names.",
+            "Suspicious domain": "The domain 'reset-password-now.info' is suspicious. Legitimate password resets come from the company's official domain.",
+            "Urgent language": "The 'Action Required' and mandatory reset requirements create false urgency to prompt hasty actions.",
+            "Generic greeting": "Using 'Valued Customer' instead of your name is a red flag. Legitimate services usually use your registered name."
+        }
+    },
+    {
+        "id": 4,
+        "type": "social_media",
+        "profile_name": "CryptoExpert2024",
+        "profile_message": "I've got inside information on a new cryptocurrency that's about to explode! Invest now and get 10x returns in just one week! Limited spots available. Contact me ASAP for details!",
+        "task": "Identify the red flags in this profile/message.",
+        "options": [
+            "Unrealistic return claims",
+            "Pressure to act fast",
+            "Vague information about the investment",
+            "Promise of inside information"
+        ],
+        "answer": [
+            "Unrealistic return claims",
+            "Pressure to act fast",
+            "Vague information about the investment",
+            "Promise of inside information"
+        ],
+        "explanations": {
+            "Unrealistic return claims": "Promising 10x returns in one week is unrealistic. Legitimate investments don't guarantee such extreme short-term gains.",
+            "Pressure to act fast": "Creating urgency with 'Limited spots' and 'ASAP' is a common scam tactic to prevent careful consideration.",
+            "Vague information about the investment": "No specific details about the cryptocurrency or why it would increase in value are provided.",
+            "Promise of inside information": "Claiming to have 'inside information' is a red flag as trading on such information is typically illegal."
+        }
+    },
+    {
+        "id": 5,
+        "type": "phishing",
+        "email_subject": "Delivery Problem: Your Package Cannot Be Delivered",
+        "email_body": "Dear Customer,\nWe were unable to deliver your package due to an incorrect address. Please click the link below to update your delivery information: [update-delivery-info.net]. A small fee may be required to reschedule delivery.\nSincerely,\nDelivery Services",
+        "task": "Identify the red flags in this email.",
+        "options": [
+            "Unexpected delivery issue",
+            "Request for payment to reschedule",
+            "Suspicious domain",
+            "Clear tracking number"
+        ],
+        "answer": [
+            "Unexpected delivery issue",
+            "Request for payment to reschedule",
+            "Suspicious domain"
+        ],
+        "explanations": {
+            "Unexpected delivery issue": "If you haven't ordered anything, an unexpected delivery issue email is suspicious.",
+            "Request for payment to reschedule": "Legitimate delivery services don't typically charge fees to correct an address.",
+            "Suspicious domain": "The domain 'update-delivery-info.net' is not from a legitimate delivery service.",
+            "Clear tracking number": "The email doesn't provide a tracking number, which legitimate delivery services typically include."
+        }
+    },
+    {
+        "id": 6,
+        "type": "social_media",
+        "profile_name": "TechHelp",
+        "profile_message": "Is your computer running slow? Click here for a FREE diagnostic scan that will fix all your problems! [free-scan.virus]",
+        "task": "Identify the red flags in this profile/message.",
+        "options": [
+            "Unsolicited technical support",
+            "Promise to fix all problems",
+            "Suspicious link domain",
+            "Free offer"
+        ],
+        "answer": [
+            "Unsolicited technical support",
+            "Promise to fix all problems",
+            "Suspicious link domain"
+        ],
+        "explanations": {
+            "Unsolicited technical support": "Legitimate tech support doesn't randomly contact users offering help.",
+            "Promise to fix all problems": "Claiming to fix all problems without diagnosis is unrealistic and suspicious.",
+            "Suspicious link domain": "The domain ends in '.virus' which is not a legitimate top-level domain.",
+            "Free offer": "While the offer being free isn't automatically suspicious, it's often used to lure victims into downloading malware."
+        }
+    },
+    {
+        "id": 7,
+        "type": "phishing",
+        "email_subject": "Your iCloud storage is full!",
+        "email_body": "Dear User,\nYour iCloud storage is almost full. Click here to upgrade your storage and avoid losing important files: [icloud-upgrade.ru].\nSincerely,\nApple Support",
+        "task": "Identify the red flags in this email.",
+        "options": [
+            "Generic greeting",
+            "Suspicious domain",
+            "Threat of data loss",
+            "Storage upgrade offer"
+        ],
+        "answer": [
+            "Generic greeting",
+            "Suspicious domain",
+            "Threat of data loss"
+        ],
+        "explanations": {
+            "Generic greeting": "Apple addresses users by their registered name, not 'Dear User'.",
+            "Suspicious domain": "The '.ru' domain is suspicious. Apple only uses apple.com domains.",
+            "Threat of data loss": "Creating fear of losing files is a manipulation tactic to prompt quick action.",
+            "Storage upgrade offer": "While Apple does offer storage upgrades, they do so through the device settings, not email links."
+        }
+    }
+]

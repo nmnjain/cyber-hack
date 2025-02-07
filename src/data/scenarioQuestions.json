@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "scenario": "You're working from home and receive an email from your company's IT department.  The email says there's been a security breach and asks you to immediately click a link to reset your password.  The email looks legitimate, with your company logo and IT department signature.",
+        "question": "What is the most appropriate course of action?",
+        "options": [
+            "Click the link immediately and reset your password.",
+            "Forward the email to your personal email account for safekeeping.",
+            "Contact the IT department directly through a known phone number or official communication channel to verify the email's authenticity.",
+            "Ignore the email completely."
+        ],
+        "answer": 2,
+        "explanation": "This is a classic phishing attempt.  It's crucial to verify any unexpected security alerts through official channels, *never* by clicking links in emails.  Contacting IT directly through a known phone number is the safest approach.",
+        "difficulty": "Beginner",
+        "points": 10
+    },
+    {
+        "id": 2,
+        "scenario": "You're at a coffee shop using their public Wi-Fi.  You need to log in to your bank account to transfer some money.",
+        "question": "What's the safest way to proceed?",
+        "options": [
+            "Log in directly, as long as the website shows 'https'.",
+            "Wait until you get home to use your secure home network.",
+            "Use a VPN (Virtual Private Network) before logging in.",
+            "Ask the coffee shop staff for the Wi-Fi password."
+        ],
+        "answer": 2,
+        "explanation": "Public Wi-Fi is often unsecured, making your data vulnerable.  A VPN encrypts your connection, providing a secure tunnel even on public networks.  Waiting until you're on a trusted network is also a good option, but a VPN provides immediate protection.",
+        "difficulty": "Intermediate",
+        "points": 15
+    },
+    {
+        "id": 3,
+        "scenario": "You're browsing the web and a pop-up appears, claiming your computer is infected with a virus and you need to call a tech support number immediately.",
+        "question": "What should you do?",
+        "options": [
+            "Call the number provided in the pop-up.",
+            "Click on the 'OK' button in the pop-up to remove the virus.",
+            "Close the pop-up window and run a scan with your antivirus software.",
+            "Restart your computer and hope the problem goes away."
+        ],
+        "answer": 2,
+        "explanation": "This is a common tech support scam.  Never call numbers from unsolicited pop-ups.  Close the pop-up and run a scan with your trusted antivirus.",
+        "difficulty": "Beginner",
+        "points": 10
+    },
+    {
+        "id": 4,
+        "scenario": "You download a free software program from a website you've never used before.  After installing it, you notice your computer is running slower than usual, and you see unfamiliar pop-up ads.",
+        "question": "What is the most likely cause of these issues?",
+        "options": [
+            "Your computer needs more RAM.",
+            "The software you downloaded is probably bundled with malware.",
+            "Your internet connection is slow.",
+            "Your computer is getting old."
+        ],
+        "answer": 1,
+        "explanation": "Free software from untrusted sources often comes bundled with unwanted programs, including malware.  Performance issues and unexpected pop-ups are strong indicators of this.",
+        "difficulty": "Intermediate",
+        "points": 15
+    },
+    {
+        "id": 5,
+        "scenario": "A friend sends you a message on social media asking you to click a link to see a funny video. The message seems slightly out of character for your friend.",
+        "question": "What should you do?",
+        "options": [
+            "Click the link; your friend wouldn't send you anything harmful.",
+            "Reply to the message, asking your friend if they really sent it.",
+            "Contact your friend through a different method (phone call, text) to verify.",
+            "Ignore the message."
+        ],
+        "answer": 2,
+        "explanation": "Your friend's account might have been compromised. It is important to verify requests via other channels.",
+        "difficulty": "Advanced",
+        "points": 20
+    }
+]
